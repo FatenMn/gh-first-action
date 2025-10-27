@@ -1,0 +1,13 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Premier Workflow
+on:
+  workflow_dispatch:
+jobs:
+  premier-job:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Afficher un message de bienvenue
+        run: echo "Hello World!"
+      - name: Afficher un message de fin
+        run: echo "Done - Bye"
